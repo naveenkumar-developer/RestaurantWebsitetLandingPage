@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Signika:wght@300..700&family=Sixtyfour+Convergence&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Signika:wght@300..700&family=Sixtyfour+Convergence&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yuji+Mai&display=swap');
+
+.products{
+    margin-top: 20px;
+    padding: 10px;
+}
+.products_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.products_header h2 {
+    font-size: 1.5rem;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.products_header p {
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.products_nav {
+    margin-top: 30px;
+}
+
+.products_nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.products_nav ul li {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.products_nav ul li a {
+    font-size: 0.75rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 8px 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.products_nav ul li a.active {
+    background-color: #ff002b;
+    color: whitesmoke;
+    border: transparent;
+}
+.foodCards_container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    row-gap: 10px;
+}
+.products .viewAllProductsBtn{
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-inline: auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: #ff002b;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+@media all and (min-width: 768px) {
+
+    .products_header h2 {
+        font-size: 2.5rem;
+    }
+
+    .products_nav ul li {
+        width: 120px;
+    }
+
+    .products_nav ul li a {
+        font-size: 0.82rem;
+        font-weight: 500;
+        padding: 8px 10px;
+        display: block;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,92 @@
+.firstBanner{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    background-color: #fefae0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+
+.firstBanner_container{
+    height: 300px;
+}
+
+.firstBanner_introPara{
+    font-size: 0.625rem;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.firstBanner_introPara .orderNowBtn_firstBanner{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #ff002b;
+    color: whitesmoke;
+}
+
+.img1{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img2, .img4, .img5{
+    width: 60px;
+}
+
+.img2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.img4{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 150px;
+}
+.img5{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media all and (min-width:768px) {
+    .firstBanner{
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .firstBanner_container{
+        height: 500px;
+    }
+
+    .firstBanner_introPara{
+        font-size: 1.125rem;
+        width: 500px;   
+    }
+
+    .img1{
+        width: auto;
+        height: 400px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .img2, .img4, .img5{
+        width: 150px;
+    }
+
+}

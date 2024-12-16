@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.FoodCard{
+    padding: 5px;
+    width: 150px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+}
+.FoodCard *{
+    margin-top: 1px;
+}
+.likeBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.foodImg_container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foodImg{
+    width: 100px;
+    height: 150px;
+    margin-inline: auto;
+}
+.starIcon_container{
+    display: flex;
+    justify-content: center;
+}
+.starIcon_container *{
+    text-align: center;
+    color: orange;
+    }
+.foodTitle{
+    text-align: center;
+    font-size: 0.82rem;
+}
+.FoodCard p{
+    font-size: 0.65rem;
+    text-align: center;
+}
+.FoodCard .foodPrice{
+    font-weight: 500;
+    text-align: center;
+}
+.FoodCard .addToCartBtn{
+    font-size: 0.565rem;
+    margin-inline: auto;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: #ff002b;
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+@media all and (min-width: 768px) {
+.FoodCard{
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+.foodImg{
+    width: 150px;
+    height: auto;
+    margin-inline: auto;
+}
+.starIcon_container{
+    text-align: center;
+}
+
+.foodTitle{
+    font-size: 1rem;
+}
+
+.FoodCard p{
+    font-size: 0.865rem;
+}
+
+.FoodCard .addToCartBtn{
+    width: 150px;
+    font-size: 1rem;
+}
+
+}
