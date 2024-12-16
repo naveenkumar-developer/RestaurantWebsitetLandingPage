@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/RestaurantWebsitetLandingPage/static/css/main.e0981572.css",
+    "main.js": "/RestaurantWebsitetLandingPage/static/js/main.2846fcb6.js",
+    "static/js/453.0297a6b4.chunk.js": "/RestaurantWebsitetLandingPage/static/js/453.0297a6b4.chunk.js",
+    "static/media/pizza01.png": "/RestaurantWebsitetLandingPage/static/media/pizza01.cf174151ff856278c960.png",
+    "static/media/firstBanner3.png": "/RestaurantWebsitetLandingPage/static/media/firstBanner3.155e39ee30062ecf0d1f.png",
+    "static/media/categoriesimg3.png": "/RestaurantWebsitetLandingPage/static/media/categoriesimg3.bd7d79d52e6317d8a6a3.png",
+    "static/media/firstBanner_png.png": "/RestaurantWebsitetLandingPage/static/media/firstBanner_png.d74043e3e0987a122655.png",
+    "static/media/combo1.png": "/RestaurantWebsitetLandingPage/static/media/combo1.dabbb392b6636fd1e6f2.png",
+    "static/media/categoriesimg4.png": "/RestaurantWebsitetLandingPage/static/media/categoriesimg4.bd3035915083cab4c5ee.png",
+    "static/media/shawarma.png": "/RestaurantWebsitetLandingPage/static/media/shawarma.7b469e3c9395fd0cd0df.png",
+    "static/media/BurgersCombo.png": "/RestaurantWebsitetLandingPage/static/media/BurgersCombo.ac15aca2b72653a19eaf.png",
+    "static/media/categoriesimg1.png": "/RestaurantWebsitetLandingPage/static/media/categoriesimg1.1ddfb6807309694c9886.png",
+    "static/media/firstBanner4.png": "/RestaurantWebsitetLandingPage/static/media/firstBanner4.2bf52922a83446b3f8e0.png",
+    "static/media/comboImg.png": "/RestaurantWebsitetLandingPage/static/media/comboImg.2776545addf3c3ffb3cc.png",
+    "static/media/firstBanner1.png": "/RestaurantWebsitetLandingPage/static/media/firstBanner1.da1726880819cf285fd9.png",
+    "static/media/logo.png": "/RestaurantWebsitetLandingPage/static/media/logo.5a1e82c6db521a03bb84.png",
+    "static/media/notice.png": "/RestaurantWebsitetLandingPage/static/media/notice.2b76bb07694279d3d4b4.png",
+    "static/media/categoriesimg2.png": "/RestaurantWebsitetLandingPage/static/media/categoriesimg2.ba47deb73502f384cb8e.png",
+    "static/media/categoriesimg5.png": "/RestaurantWebsitetLandingPage/static/media/categoriesimg5.8c418833a88ccb051461.png",
+    "static/media/phoneImg.png": "/RestaurantWebsitetLandingPage/static/media/phoneImg.9a0a67372d16723c602d.png",
+    "static/media/locationImg.png": "/RestaurantWebsitetLandingPage/static/media/locationImg.ec7f42feadcee2207566.png",
+    "static/media/noticeImg.png": "/RestaurantWebsitetLandingPage/static/media/noticeImg.baec69f43dacae85dd54.png",
+    "index.html": "/RestaurantWebsitetLandingPage/index.html",
+    "main.e0981572.css.map": "/RestaurantWebsitetLandingPage/static/css/main.e0981572.css.map",
+    "main.2846fcb6.js.map": "/RestaurantWebsitetLandingPage/static/js/main.2846fcb6.js.map",
+    "453.0297a6b4.chunk.js.map": "/RestaurantWebsitetLandingPage/static/js/453.0297a6b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0981572.css",
+    "static/js/main.2846fcb6.js"
+  ]
+}
